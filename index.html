@@ -4,59 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/0d0d992eb4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
-<body class="bg-[#E2E6EB]">
+<body class="body1">
 
-    <nav class=" bg-[#F5F2F3] shadow-md">
-        <div class="flex flex-row justify-between items-center max-w-[70rem] mx-auto">
-            <div class="flex  flex-row gap-x-14 items-center">
-                <image src="image/logoDmb.png" class="w-[4rem]"/>
-                <h class="text-lg font-bold cursor-pointer hover:text-slate-500 transition duration-500">Home</h>
-                <h1 class="cursor-pointer hover:text-slate-400 transition duration-500">My Project</h1>
+    <nav class="header">
+        <div class="header_grp">
+            <div class="header_lft">
+                <image src="image/logoDmb.png" class="header_lft-img"/>
+                <h1 class="header_lft-h1">Home</h1>
+                <p class="header_lft-p">My Project</p>
             </div>
     
             <div class="flex justify-end">
-                <a href="/contact.html" class="px-6 py-1 text-white bg-[#111626] rounded-lg text-center hover:bg-white hover:text-black border border-black transition duration-500 my-5 text-lg font-bold hover:shadow-lg">Contact Me</a>
+                <a href="/contact.html" class="header_left-a">Contact Me</a>
             </div>
         </div>
     </nav>
 
 
-    <div class="container mt-20 py-14 flex-wrap flex flex-row mx-auto bg-white rounded-md max-w-[70rem] shadow-xl">
-        <div class=" max-w-[40rem] justify-center flex flex-col mx-auto">
-            <h1 class="text-4xl font-bold">Hi Welcome to my hut</h1>
-            <p class="text-1 my-5 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident possimus quidem dolore rerum, est vitae dicta dignissimos, aperiam reprehenderit fugiat odio iusto totam praesentium officia tempore pariatur corporis, dolores nisi et? Deserunt, quo. Molestias ipsam velit fugiat inventore accusamus. Accusantium aliquid iste sint quae cum eum reprehenderit, ab, earum veniam debitis expedita perferendis odio ex. Quaerat ullam doloremque iste corrupti.</p>
-            <div class="flex flex-row gap-x-5 items-center">
-                <a href="contact.html" class="px-6 py-1 text-white bg-[#111626] rounded-full text-center hover:bg-white hover:text-black border border-black transition duration-500 my-5 text-lg font-bold hover:shadow-lg">contact</a>
+    <div class="hero">
+        <div class=" hero_conta">
+            <h1 class="hero_conta-h1">Hi Welcome to my hut</h1>
+            <p class="hero_conta-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident possimus quidem dolore rerum, est vitae dicta dignissimos, aperiam reprehenderit fugiat odio iusto totam praesentium officia tempore pariatur corporis, dolores nisi et? Deserunt, quo. Molestias ipsam velit fugiat inventore accusamus. Accusantium aliquid iste sint quae cum eum reprehenderit, ab, earum veniam debitis expedita perferendis odio ex. Quaerat ullam doloremque iste corrupti.</p>
+            <div class="hero_conti">
+                <a href="contact.html" class="hero_contia">contact</a>
         
-                <a href="" class="flex flex-row gap-x-2  items-center">
-                    <p class="hover:text-slate-400 transition duration-300">download CV</p>
-                    <i class="fa-solid fa-download hover:text-slate-400 transition duration-300"></i>    
+                <div href="" class="home_a1">
+                    <a class="home_a1p">download CV</a>
+                    <i class="fa-solid fa-download home_a1i"></i>
+                </div>
             </div>
-            </a>
+    
             <!--- Icons --->
-            <div class="flex flex-row gap-x-4 items-center justify-start py-10">
-                <div class="bg-black rounded-full text-white px-2 py-1 cursor-pointer hover:bg-white hover:text-black border border-black transition duration-500 hover:shadow-xl"><i class="fa-brands fa-linkedin-in"></i></div>
-                <div class="bg-black rounded-full text-white px-2 py-1 cursor-pointer hover:bg-white hover:text-black border border-black transition duration-500 hover:shadow-xl"><i class="fa-brands fa-instagram "></i></div>
-                <div class="bg-black rounded-full text-white px-3 py-1 cursor-pointer hover:bg-white hover:text-black border border-black transition duration-500 hover:shadow-xl"><i class="fa-brands fa-facebook-f"></i></div>
-                <div class="bg-black rounded-full text-white px-2 py-1 cursor-pointer hover:bg-white hover:text-black border border-black transition duration-500 hover:shadow-xl"><i class="fa-brands fa-twitter"></i></div>
+            <div class="icons_container">
+                <div class="rounded_icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                <div class="rounded_icon"><i class="fa-brands fa-instagram "></i></div>
+                <div class="rounded_icon1"><i class="fa-brands fa-facebook-f"></i></div>
+                <div class="rounded_icon"><i class="fa-brands fa-twitter"></i></div>
             </div>
             
         </div>
-        <!--- Card --->
-        <div class="shadow-xl hover:shadow-2xl transition duration-500 max-w-[20rem] mx-auto text-center overflow-hidden rounded-lg flex-wrap ">
-            <div class="w-[20rem] h-[25rem] mx-auto overflow-hidden bg-yellow-500rounded-xl ">
-                <image src="image/cv.jpg" class="object-cover">
-            </div>
-            <div class="py-5">
-                <h1 class="text-4xl font-bold">Setiawan Jodi</h1>
-                <p class="">Fullstack Developer</p>
-            </div>
+    <!--- Card --->
+    <div class="card">
+        <div class="card_image">
+            <image src="image/cv.jpg" class="card_image-img">
         </div>
+        <div class="card_p">
+            <h1>Setiawan Jodi</h1>
+            <p>Fullstack Developer</p>
+        </div>
+    </div>
     </div>
 </body>
 </html>

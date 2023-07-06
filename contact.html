@@ -4,63 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/0d0d992eb4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="contact.css">
     <title>Document</title>
 </head>
 
-<body class=" bg-[#DCE0E4]">
+<body class=" body1">
 
-    <nav class=" bg-[#F5F2F3] shadow-md">
-        <div class="flex flex-row justify-between items-center max-w-[70rem] border mx-auto">
-            <div class="flex  flex-row gap-x-14 items-center">
-                <image src="image/logoDmb.png" class="w-[4rem]"/>
-                <a href="index.html" class="text-lg font-bold cursor-pointer hover:text-slate-500 transition duration-500">Home</a>
-                <h1 class="cursor-pointer hover:text-slate-400 transition duration-500">My Project</h1>
+    <nav class="header">
+        <div class="header_grp">
+            <div class="header_lft">
+                <image src="image/logoDmb.png" class="header_lft-img"/>
+                <a class="header_lft-h1" href="index.html">Home</a>
+                <p class="header_lft-p">My Project</p>
             </div>
     
             <div class="flex justify-end">
-                <button class="px-6 py-1 text-white bg-[#111626] rounded-lg text-center hover:bg-white hover:text-black border border-black transition duration-500 my-5 text-lg font-bold hover:shadow-lg">Contact Me</button>
+                <a href="/contact.html" class="header_left-a">Contact Me</a>
             </div>
         </div>
     </nav>
 
 
-    <div class="container max-w-[36rem] mx-auto py-14 flex-wrap">
-        <form class="flex flex-col gap-y-8">
-            <h1 class="text-center text-4xl font-bold mt-14 mb-1">GET IN TOUCH</h1>    
+    <div class="section">
+        <form class="form1">
+            <h1 class="form1_h1">GET IN TOUCH</h1>    
     
-            <div class="flex flex-col">
-                <label class="text-md font-bold">Name</label>
-                <input type="text" class="border rounded-md shadow-md py-1"/>
+            <div class="form_1-list">
+                <label class="form_1-lab">Name</label>
+                <input type="text" class="form_1-lab1"/>
             </div>
         
-            <div class="flex flex-col">
-                <label class="text-md font-bold">Email</label>
-                <input type="email" class="border rounded-md shadow-md py-1"/>
+            <div class="form_1-list">
+                <label class="form_1-lab">Email</label>
+                <input type="email" class="form_1-lab1"/>
             </div>
         
-            <div class="flex flex-col">
-                <label class="text-md font-bold">Phone Number</label>
-                <input type="text" class="border rounded-md shadow-md py-1"/>
+            <div class="form_1-list">
+                <label class="form_1-lab">Phone Number</label>
+                <input type="text" class="form_1-lab1"/>
             </div>
         
-            <div class="flex flex-col">
-                <label class="text-md font-bold">Subject</label>
-                <select class="bg-white py-2 border rounded-md shadow-md pl-4">
+            <div class="form_1-list">
+                <label class="form_1-lab">Subject</label>
+                <select class="form_1-lab11">
                     <option>Frontend Development</option>
                     <option>Backend Development</option>
                     <option>Fullstack Development</option>
                 </select>
             </div>
         
-            <div class="flex flex-col ">
-                <label class="text-md font-bold">Your Message</label>
-                <textarea class="border h-[8rem]" ></textarea>
+            <div class="form_1-list ">
+                <label class="form_1-msg ">Your Message</label>
+                <textarea class="form_1-txt" ></textarea>
             </div>
             
             <div class="flex justify-end">
-                <button class="px-6 py-1 text-white bg-[#111626] rounded-full text-center hover:bg-white hover:text-black border border-black transition duration-500 my-5 text-lg font-bold hover:shadow-lg">Contact Me</button>
+                <button>Contact Me</button>
             </div>
         </form>
     </div>
